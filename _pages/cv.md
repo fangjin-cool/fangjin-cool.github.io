@@ -11,37 +11,34 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Huazhong University of Science and Technology, 2012
+* M.S. in Peking University, 2016
+
+[//]: # (* Ph.D in Version Control Theory, GitHub University, 2018 (expected))
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jul. 2016 - Now: Senior Researcher and Developer
+  * Baidu Research, Robotics and Autonomous driving Lab (RAL)
+  * Topics: Perception and Data Simulation
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* C++/C, Python
+* Computer Vision, 3D Vision
+* Machine learning & Deep learning.
+  * pytorch, caffe, tensorflow
 
+<!--
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -57,3 +54,5 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+-->
