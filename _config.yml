@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jin Fang(方进)"
+  name             : "Jin Fang"
   avatar           : "fangjin.png"
   bio              : "Autonomous Driving, Deep Learning, 3D Vision"
   location         : "Beijing"
