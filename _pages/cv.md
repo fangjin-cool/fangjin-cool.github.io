@@ -14,7 +14,7 @@ Education
 * B.S. in Huazhong University of Science and Technology, 2012
 * M.S. in Peking University, 2016
 
-[//]: # (* Ph.D in Version Control Theory, GitHub University, 2018 (expected))
+<!--* Ph.D in Version Control Theory, GitHub University, 2018 (expected)-->
 
 
 Work experience
