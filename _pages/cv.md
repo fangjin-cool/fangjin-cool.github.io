@@ -17,21 +17,25 @@ Education
 <!--* Ph.D in Version Control Theory, GitHub University, 2018 (expected)-->
 
 
-Work experience
+Work Experience
 ======
-* Jul. 2016 - Now: Senior Researcher and Developer
+* Jul. 2016 - Dec. 2022: Senior Researcher and Developer
   * Baidu Research, Robotics and Autonomous driving Lab (RAL)
   * Topics: Perception and Data Simulation
+* Jan. 2023 - Jul. 2024: Staff Engineer
+  * Inceptio Technology
+  * Topics: Data Loop (Auto labeling, Data mining), Perception, Offline Models
 
-  
+
+<!--
 Skills
 ======
 * C++/C, Python
-* Computer Vision, 3D Vision
+* Computer Vision, 3D Vision, Large Models
 * Machine learning & Deep learning.
   * pytorch, caffe, tensorflow
 
-<!--
+
 Publications
 ======
   <ul>{% for post in site.publications %}
