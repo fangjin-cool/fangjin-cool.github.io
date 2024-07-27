@@ -12,6 +12,11 @@
   {% assign title = post.title %}
 {% endif %}
 
+<style>
+  pre { background-color: #f8f8f8; padding: 10px; border: 1px solid #ddd; }
+  code { font-family: 'Courier New', Courier, monospace; }
+</style>
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -53,9 +58,9 @@
     {% endif %}
     
     {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+      <p>Recommended citation: <pre><code>{{ post.citation }} </code></pre><a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
+      <p>Recommended citation: <pre><code>{{ post.citation }}</code></pre> </p>
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
