@@ -64,9 +64,12 @@ def html_escape(text):
 import os
 for row, item in publications.iterrows():
     
-    md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
-    html_filename = str(item.pub_date) + "-" + item.url_slug
-    year = item.pub_date[:4]
+    pub_data = item.pub_date.split('/')
+    pub_data_str = '-'.join(pub_data)
+
+    md_filename = pub_data_str + "-" + item.url_slug + ".md"
+    html_filename = pub_data_str + "-" + item.url_slug
+    year = pub_data[0]
     
     ## YAML variables
     
@@ -79,7 +82,7 @@ for row, item in publications.iterrows():
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
     
-    md += "\ndate: " + str(item.pub_date) 
+    md += "\ndate: " + pub_data_str 
     
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     
@@ -98,7 +101,7 @@ for row, item in publications.iterrows():
     if len(str(item.excerpt)) > 5:
         md += "\n" + html_escape(item.excerpt) + "\n"
         
-    md += "\nRecommended citation: " + item.citation
+    md += "\nRecommended citation: \n" + item.citation
     
     md_filename = os.path.basename(md_filename)
        

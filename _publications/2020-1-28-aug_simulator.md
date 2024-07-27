@@ -1,0 +1,17 @@
+---
+title: "Augmented LiDAR simulator for autonomous driving"
+collection: publications
+permalink: /publication/2020-1-28-aug_simulator
+excerpt: 'In Autonomous Driving (AD), detection and tracking of obstacles on the roads is a critical task. Deep-learning based methods using annotated LiDAR data have been the most widely adopted approach for this. Unfortunately, annotating 3D point cloud is a very challenging, time- and money-consuming task. In this paper, we propose a novel LiDAR simulator that augments real point cloud with synthetic obstacles (e.g., cars, pedestrians, and other movable objects). Unlike previous simulators that entirely rely on CG models and game engines, our augmented simulator bypasses the requirement to create high-fidelity background CAD models. Instead, we can simply deploy a vehicle with a LiDAR scanner to sweep the street of interests to obtain the background point cloud, based on which annotated point cloud can be automatically generated. This unique &quot;scan-and-simulate&quot; capability makes our approach scalable and practical, ready for large-scale industrial applications. In this paper, we describe our simulator in detail, in particular the placement of obstacles that is critical for performance enhancement. We show that detectors with our simulated LiDAR point cloud alone can perform comparably (within two percentage points) with these trained with real data. Mixing real and simulated data can achieve over 95% accuracy.'
+date: 2020-1-28
+venue: 'IEEE Robotics and Automation Letters'
+paperurl: 'https://arxiv.org/pdf/1811.07112'
+citation: 'Fang, Jin, Dingfu Zhou, Feilong Yan, Tongtong Zhao, Feihu Zhang, Yu Ma, Liang Wang, and Ruigang Yang. &quot;Augmented LiDAR simulator for autonomous driving.&quot; IEEE Robotics and Automation Letters 5, no. 2 (2020): 1931-1938.'
+---
+
+<a href='https://arxiv.org/pdf/1811.07112'>Download paper here</a>
+
+In Autonomous Driving (AD), detection and tracking of obstacles on the roads is a critical task. Deep-learning based methods using annotated LiDAR data have been the most widely adopted approach for this. Unfortunately, annotating 3D point cloud is a very challenging, time- and money-consuming task. In this paper, we propose a novel LiDAR simulator that augments real point cloud with synthetic obstacles (e.g., cars, pedestrians, and other movable objects). Unlike previous simulators that entirely rely on CG models and game engines, our augmented simulator bypasses the requirement to create high-fidelity background CAD models. Instead, we can simply deploy a vehicle with a LiDAR scanner to sweep the street of interests to obtain the background point cloud, based on which annotated point cloud can be automatically generated. This unique &quot;scan-and-simulate&quot; capability makes our approach scalable and practical, ready for large-scale industrial applications. In this paper, we describe our simulator in detail, in particular the placement of obstacles that is critical for performance enhancement. We show that detectors with our simulated LiDAR point cloud alone can perform comparably (within two percentage points) with these trained with real data. Mixing real and simulated data can achieve over 95% accuracy.
+
+Recommended citation: 
+Fang, Jin, Dingfu Zhou, Feilong Yan, Tongtong Zhao, Feihu Zhang, Yu Ma, Liang Wang, and Ruigang Yang. "Augmented LiDAR simulator for autonomous driving." IEEE Robotics and Automation Letters 5, no. 2 (2020): 1931-1938.

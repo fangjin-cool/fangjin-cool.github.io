@@ -1,0 +1,17 @@
+---
+title: "LiDAR-CS dataset: LiDAR point cloud dataset with cross-sensors for 3D object detection"
+collection: publications
+permalink: /publication/2024-5-1-lidar-cs
+excerpt: 'LiDAR devices are widely used in autonomous driving scenarios and researches on 3D point cloud achieve remarkable progress over the past years. However, deep learning-based methods heavily rely on the annotation data and often face the domain generalization problem. Unlike 2D images whose domains are usually related to the texture information, the feature extracted from the 3D point cloud is affected by the distribution of the points. Due to the lack of a 3D domain adaptation benchmark, the common practice is to train the model on one benchmark (e.g, Waymo) and evaluate it on another dataset (e.g. KITTI). However, in this setting, there are two types of domain gaps, the scenarios domain, and sensors domain, making the evaluation and analysis complicated and difficult. To handle this situation, we propose LiDAR Dataset with Cross-Sensors (LiDAR-CS Dataset), which contains large-scale annotated LiDAR point cloud under 6 groups of different sensors but with same corresponding scenarios, captured from hybrid realistic LiDAR simulator. As far as we know, LiDAR-CS Dataset is the first dataset focused on the sensor (e.g., the points distribution) domain gaps for 3D object detection in real traffic. Furthermore, we evaluate and analyze the performance with several baseline detectors on the LiDAR-CS benchmark and show its applications.'
+date: 2024-5-1
+venue: 'ICRA 2024'
+paperurl: 'https://arxiv.org/pdf/2301.12515'
+citation: 'Fang, Jin, Dingfu Zhou, Jingjing Zhao, Chulin Tang, Cheng-Zhong Xu, and Liangjun Zhang. &quot;LiDAR-CS dataset: LiDAR point cloud dataset with cross-sensors for 3D object detection.&quot; arXiv preprint arXiv:2301.12515 (2023).'
+---
+
+<a href='https://arxiv.org/pdf/2301.12515'>Download paper here</a>
+
+LiDAR devices are widely used in autonomous driving scenarios and researches on 3D point cloud achieve remarkable progress over the past years. However, deep learning-based methods heavily rely on the annotation data and often face the domain generalization problem. Unlike 2D images whose domains are usually related to the texture information, the feature extracted from the 3D point cloud is affected by the distribution of the points. Due to the lack of a 3D domain adaptation benchmark, the common practice is to train the model on one benchmark (e.g, Waymo) and evaluate it on another dataset (e.g. KITTI). However, in this setting, there are two types of domain gaps, the scenarios domain, and sensors domain, making the evaluation and analysis complicated and difficult. To handle this situation, we propose LiDAR Dataset with Cross-Sensors (LiDAR-CS Dataset), which contains large-scale annotated LiDAR point cloud under 6 groups of different sensors but with same corresponding scenarios, captured from hybrid realistic LiDAR simulator. As far as we know, LiDAR-CS Dataset is the first dataset focused on the sensor (e.g., the points distribution) domain gaps for 3D object detection in real traffic. Furthermore, we evaluate and analyze the performance with several baseline detectors on the LiDAR-CS benchmark and show its applications.
+
+Recommended citation: 
+Fang, Jin, Dingfu Zhou, Jingjing Zhao, Chulin Tang, Cheng-Zhong Xu, and Liangjun Zhang. "LiDAR-CS dataset: LiDAR point cloud dataset with cross-sensors for 3D object detection." arXiv preprint arXiv:2301.12515 (2023).
